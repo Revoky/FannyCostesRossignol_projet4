@@ -4,6 +4,10 @@
     height: 100px;
 }
 
+.h1_home {
+    text-shadow: 1px 1px 1px black;
+}
+
 .citation {
     font-size: 150%;
     font-style: italic;
@@ -47,16 +51,6 @@
     padding: 10px;
 }
 
-.footer_elements_size {
-    font-size:110%;
-}
-
-.footer_title {
-    font-size: 110%;
-    padding: 10px;
-    text-shadow: 1px 1px 1px rgb(176, 89, 48);
-}
-
 .keywords_white {
     color:#cccccc;
     font-size:1px;
@@ -64,10 +58,6 @@
 
 .keywords_orange {
     color:#F3976C;
-}
-
-.h1_home {
-    text-shadow: 1px 1px 1px black;
 }
 
 .ready_contrast {
@@ -78,6 +68,22 @@
     justify-content: center;
     padding: 10px;
     border-radius: 40px;
+}
+
+.footer_title {
+    font-size: 110%;
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgb(176, 89, 48);
+}
+
+.footer_list {
+    font-size: 110%;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Page contact*/
