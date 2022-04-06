@@ -16,6 +16,11 @@
 .name_citation {
     font-size: 140%;
     font-style: italic;
+    color: rgb(83, 83, 83);
+}
+
+.link_footer {
+    color: black;
 }
 
 .link_footer:hover {
